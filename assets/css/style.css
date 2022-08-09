@@ -3,11 +3,11 @@
   padding: 0;
   margin: 0;
 }
-
+/* This is the body of the page */
 body {
   background-color: #d9dcd6;
 }
-
+/* This is the header of the page */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -15,16 +15,16 @@ body {
   background-color: #2a607c;
   color: #ffffff;
 }
-
+/* This is the heading "Horiseon" in the header */
 .header h1 {
   display: inline-block;
-  font-size: 48px;
+  font-size: 42px;
 }
-
+/* This is the "seo" portion within the heading "Horiseon"  */
 .seo {
   color: #d9dcd6;
 }
-
+/* This is the nav bar */
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -32,25 +32,25 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-
+/* This is the unordered list within the nav bar */
 .header ul {
   list-style-type: none;
 }
-
+/* These are the items listed within the unordered list in the nav bar */
 .header li {
   display: inline-block;
   margin-left: 25px;
 }
-
+/* This is all anchor elements */
 a {
   color: #ffffff;
   text-decoration: none;
 }
-
+/* This is all paragraph elements */
 p {
   font-size: 16px;
 }
-
+/* This is the hero image div under the header */
 .hero {
   height: 800px;
   width: 100%;
@@ -59,23 +59,23 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/* These are sections within main that float to the left */
 .float-left {
   float: left;
   margin-right: 25px;
 }
-
+/* These are sections within main that float to the right */
 .float-right {
   float: right;
   margin-left: 25px;
 }
-
+/* This is all the content within the main element */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
-
+/* This is all of the content within the benefits aside element */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -86,21 +86,21 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
-
+/* These are the sections within the aside */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
   margin-bottom: 32px;
   color: #ffffff;
 }
-
+/* These are the headers within the sections */
 .benefit-lead h3,
 .benefit-cost h3,
 .benefit-brand h3 {
   margin-bottom: 10px;
   text-align: center;
 }
-
+/* These are the images within the sections */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -108,7 +108,7 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
-
+/* This is the primary class within the main section */
 .main {
   margin-bottom: 20px;
   padding: 50px;
@@ -117,16 +117,16 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
-
+/* These are the images within the main class */
 .main img {
   max-height: 200px;
 }
-
+/* These are the headers within the main class */
 .main h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
+/* This is the footer element on the bottom of the page */
 .footer {
   padding: 30px;
   clear: both;
@@ -134,7 +134,7 @@ p {
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-
-.footer h2 {
+/* This is the heading within the footer */
+.footer h4 {
   font-size: 20px;
 }
