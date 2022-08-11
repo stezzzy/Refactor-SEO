@@ -87,23 +87,17 @@ p {
   background-color: #2589bd;
 }
 /* These are the sections within the aside */
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+.benefit-section {
   margin-bottom: 32px;
   color: #ffffff;
 }
 /* These are the headers within the sections */
-.benefit-lead h3,
-.benefit-cost h3,
-.benefit-brand h3 {
+.benefit-section h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 /* These are the images within the sections */
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+.benefit-section img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
